@@ -1,0 +1,14 @@
+
+digraph G {
+node[shape=Mrecord]
+
+
+        "On Graph Start: Out" -> "TickBus Handler: Connect";
+
+        "TickBus Handler: ExecutionSlot:OnTick" -> "Print: In";
+
+        "TickBus Handler: Number" -> "Print: Value";
+
+        "TickBus Handler: ScriptTimePoint" -> "Print: Value_1";
+
+}
